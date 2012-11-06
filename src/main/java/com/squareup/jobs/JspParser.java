@@ -12,6 +12,16 @@ public class JspParser {
    *  <%= xyz %>
    *
    * where "xyz" is passed to System.out.println.
+   *
+   * System.out.print("<!DOCTYPE html><html>  <head>    ");
+   * int i = 0, j = 2; ;
+   * System.out.print("    <title>JSP Parser!</title>  </head>  <body>    <h1>Time: ");
+   * System.out.print( System.currentTimeMillis() );
+   * System.out.print("</h1>    <p><code>i = ");
+   * System.out.print(i);
+   * System.out.print("</code> and <code>j = ");
+   * System.out.print(j);
+   * System.out.print("</p>  </body></html>");
    */
   public static String parse(String jsp) {
     // TODO Implement me!
