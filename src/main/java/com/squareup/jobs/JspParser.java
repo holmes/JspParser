@@ -33,12 +33,12 @@ public class JspParser {
         + "<!DOCTYPE html>"
         + "<html>"
         + "  <head>"
-        + "    <% int i = 0, j = 2; %>"
+        + "    <% int i = 3%5, j = 2; %>"
         + "    <title>JSP Parser!</title>"
         + "  </head>"
         + "  <body>"
         + "    <h1>Time: <%= System.currentTimeMillis() %></h1>"
-        + "    <p><code>i = <%=i%></code> and <code>j = <%=j%></p>"
+        + "    <p><code>i = <%=i%></code> and that's 33% more than <code>j = <%=j%></p>"
         + "  </body>"
         + "</html>";
     //jsp += "<!-- <%=\"I'm in ur strings! <% <%= % > %> \"%> -->";
