@@ -1,5 +1,4 @@
-InterviewJspParser
+JspParser
 ==================
 
-Interview Problem
-
+Because JSPs are really that cool.
