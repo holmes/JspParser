@@ -1,3 +1,6 @@
+
+
+
 package com.squareup.jobs;
 
 public class JspParser {
@@ -13,7 +16,9 @@ public class JspParser {
    *
    * where "xyz" is passed to System.out.println.
    *
-   * System.out.print("<!DOCTYPE html><html>  <head>    ");
+   * System.out.print("<!DOCTYPE html><html>  <head class=    ");
+   * System.out.print(x);
+   * System.out.print(">");
    * int i = 3 % 5, j = 2; ;
    * System.out.print("    <title>JSP Parser!</title>  </head>  <body>    <h1>Time: ");
    * System.out.print( System.currentTimeMillis() );
@@ -32,7 +37,7 @@ public class JspParser {
     String jsp = ""
         + "<!DOCTYPE html>"
         + "<html>"
-        + "  <head>"
+        + "  <head class=<%=x%>>"
         + "    <% int i = 3 % 5, j = 2; %>"
         + "    <title>JSP Parser!</title>"
         + "  </head>"
