@@ -16,9 +16,9 @@ public class JspParser {
    *
    * where "xyz" is passed to System.out.println.
    *
-   * System.out.print("<!DOCTYPE html><html>  <head class=    ");
+   * System.out.print("<!DOCTYPE html><html>  <head class=");
    * System.out.print(x);
-   * System.out.print(">");
+   * System.out.print("    >");
    * int i = 3 % 5, j = 2; ;
    * System.out.print("    <title>JSP Parser!</title>  </head>  <body>    <h1>Time: ");
    * System.out.print( System.currentTimeMillis() );
@@ -29,8 +29,7 @@ public class JspParser {
    * System.out.print("</p>  </body></html>");
    */
   public static String parse(String jsp) {
-    // TODO Implement me!
-    return "";
+    return "Implement me!";
   }
 
   public static void main(String... args) {
